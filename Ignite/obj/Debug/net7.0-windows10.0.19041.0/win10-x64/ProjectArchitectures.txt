@@ -1,0 +1,1 @@
+C:\Users\jakus\source\repos\Ignite\Ignite\Ignite.csproj;x64

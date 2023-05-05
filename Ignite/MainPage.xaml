@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ignite.MainPage"
+             BackgroundColor="#212121">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Border Stroke="#727272"
+                StrokeThickness="2"
+                StrokeShape="RoundRectangle"
+                HorizontalOptions="Center">
+
+                <BoxView Color="#00FFFFFF"
+                    CornerRadius="50"
+                    WidthRequest="250"
+                    HeightRequest="175"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                >
+                <!-- Going to put the content inside of here. Each one of these BoxViews and borders will hold the homepage content -->
+                </BoxView>
+
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
